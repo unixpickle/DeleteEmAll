@@ -6,7 +6,7 @@ Why not run it and find out?
 License
 =======
 
-If you re-distribute this I will eat you **ALIVE**.
+If you re-distribute this I will eat you.
 
 Your app broke Launchpad
 ------------------------
