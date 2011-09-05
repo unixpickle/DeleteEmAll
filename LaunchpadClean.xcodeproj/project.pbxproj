@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA152C1914145A8E0008D88B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA152C1814145A8E0008D88B /* Cocoa.framework */; };
+		FA152C2314145A8E0008D88B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA152C2114145A8E0008D88B /* InfoPlist.strings */; };
+		FA152C2514145A8E0008D88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA152C2414145A8E0008D88B /* main.m */; };
+		FA152C2914145A8E0008D88B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA152C2714145A8E0008D88B /* Credits.rtf */; };
+		FA152C2C14145A8E0008D88B /* LaunchpadCleanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA152C2B14145A8E0008D88B /* LaunchpadCleanAppDelegate.m */; };
+		FA152C2F14145A8E0008D88B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA152C2D14145A8E0008D88B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA152C1414145A8E0008D88B /* LaunchpadClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchpadClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA152C1814145A8E0008D88B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA152C1B14145A8E0008D88B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA152C1C14145A8E0008D88B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA152C1D14145A8E0008D88B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA152C2014145A8E0008D88B /* LaunchpadClean-Info.plist */ = {isa = PBXFileReference; path = "LaunchpadClean-Info.plist"; sourceTree = "<group>"; };
+		FA152C2214145A8E0008D88B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA152C2414145A8E0008D88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA152C2614145A8E0008D88B /* LaunchpadClean-Prefix.pch */ = {isa = PBXFileReference; path = "LaunchpadClean-Prefix.pch"; sourceTree = "<group>"; };
+		FA152C2814145A8E0008D88B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA152C2A14145A8E0008D88B /* LaunchpadCleanAppDelegate.h */ = {isa = PBXFileReference; path = LaunchpadCleanAppDelegate.h; sourceTree = "<group>"; };
+		FA152C2B14145A8E0008D88B /* LaunchpadCleanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchpadCleanAppDelegate.m; sourceTree = "<group>"; };
+		FA152C2E14145A8E0008D88B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA152C1114145A8E0008D88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA152C1914145A8E0008D88B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA152C0914145A8D0008D88B = {
+			isa = PBXGroup;
+			children = (
+				FA152C1E14145A8E0008D88B /* LaunchpadClean */,
+				FA152C1714145A8E0008D88B /* Frameworks */,
+				FA152C1514145A8E0008D88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA152C1514145A8E0008D88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C1414145A8E0008D88B /* LaunchpadClean.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA152C1714145A8E0008D88B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C1814145A8E0008D88B /* Cocoa.framework */,
+				FA152C1A14145A8E0008D88B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA152C1A14145A8E0008D88B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C1B14145A8E0008D88B /* AppKit.framework */,
+				FA152C1C14145A8E0008D88B /* CoreData.framework */,
+				FA152C1D14145A8E0008D88B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA152C1E14145A8E0008D88B /* LaunchpadClean */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C2A14145A8E0008D88B /* LaunchpadCleanAppDelegate.h */,
+				FA152C2B14145A8E0008D88B /* LaunchpadCleanAppDelegate.m */,
+				FA152C2D14145A8E0008D88B /* MainMenu.xib */,
+				FA152C1F14145A8E0008D88B /* Supporting Files */,
+			);
+			path = LaunchpadClean;
+			sourceTree = "<group>";
+		};
+		FA152C1F14145A8E0008D88B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA152C2014145A8E0008D88B /* LaunchpadClean-Info.plist */,
+				FA152C2114145A8E0008D88B /* InfoPlist.strings */,
+				FA152C2414145A8E0008D88B /* main.m */,
+				FA152C2614145A8E0008D88B /* LaunchpadClean-Prefix.pch */,
+				FA152C2714145A8E0008D88B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA152C1314145A8E0008D88B /* LaunchpadClean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA152C3214145A8E0008D88B /* Build configuration list for PBXNativeTarget "LaunchpadClean" */;
+			buildPhases = (
+				FA152C1014145A8E0008D88B /* Sources */,
+				FA152C1114145A8E0008D88B /* Frameworks */,
+				FA152C1214145A8E0008D88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchpadClean;
+			productName = LaunchpadClean;
+			productReference = FA152C1414145A8E0008D88B /* LaunchpadClean.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA152C0B14145A8D0008D88B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FA152C0E14145A8D0008D88B /* Build configuration list for PBXProject "LaunchpadClean" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA152C0914145A8D0008D88B;
+			productRefGroup = FA152C1514145A8E0008D88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA152C1314145A8E0008D88B /* LaunchpadClean */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA152C1214145A8E0008D88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA152C2314145A8E0008D88B /* InfoPlist.strings in Resources */,
+				FA152C2914145A8E0008D88B /* Credits.rtf in Resources */,
+				FA152C2F14145A8E0008D88B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA152C1014145A8E0008D88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA152C2514145A8E0008D88B /* main.m in Sources */,
+				FA152C2C14145A8E0008D88B /* LaunchpadCleanAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA152C2114145A8E0008D88B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA152C2214145A8E0008D88B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA152C2714145A8E0008D88B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA152C2814145A8E0008D88B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA152C2D14145A8E0008D88B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA152C2E14145A8E0008D88B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA152C3014145A8E0008D88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA152C3114145A8E0008D88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA152C3314145A8E0008D88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaunchpadClean/LaunchpadClean-Prefix.pch";
+				INFOPLIST_FILE = "LaunchpadClean/LaunchpadClean-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA152C3414145A8E0008D88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaunchpadClean/LaunchpadClean-Prefix.pch";
+				INFOPLIST_FILE = "LaunchpadClean/LaunchpadClean-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA152C0E14145A8D0008D88B /* Build configuration list for PBXProject "LaunchpadClean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA152C3014145A8E0008D88B /* Debug */,
+				FA152C3114145A8E0008D88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA152C3214145A8E0008D88B /* Build configuration list for PBXNativeTarget "LaunchpadClean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA152C3314145A8E0008D88B /* Debug */,
+				FA152C3414145A8E0008D88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA152C0B14145A8D0008D88B /* Project object */;
+}
